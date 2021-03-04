@@ -1,0 +1,10 @@
+lista = [1, 2, 'Angelo', 'Bia', 3.1415]
+print(lista.index(2))
+print(lista[2])
+print(1 in lista)
+print('Angelo' not in lista)
+print(2 in lista)
+print(lista[3])
+lista.append(23)
+print(lista)
+print(lista[-4])

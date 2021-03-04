@@ -1,0 +1,7 @@
+print(10/2)
+print(type(10/2))
+print(10//3)
+print(type(10//3))
+print(type(10.0))
+print(2 + True)
+print(dir(int))

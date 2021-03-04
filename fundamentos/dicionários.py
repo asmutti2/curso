@@ -1,0 +1,11 @@
+pessoa = {'nome': 'Ângelo', 'Idade': 38, 'cursos': ['Inglês', 'Python']}
+print(type(pessoa))
+#print(dir(dict))
+print(len(pessoa))
+print(pessoa['nome'])
+print(pessoa['cursos'])
+print(pessoa)
+print(pessoa.keys())
+print(pessoa.values())
+print(pessoa.items())
+print(pessoa.get('tags'))

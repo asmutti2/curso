@@ -1,0 +1,22 @@
+Lista = []
+print(type(Lista))
+#print(dir(Lista))
+#print(help(list))
+Lista.append(1)
+print(Lista)
+Lista.append(4)
+print(Lista)
+Lista.append('eu')
+print(Lista)
+Lista.append(2)
+print(Lista)
+print(len(Lista))
+print(Lista)
+print(Lista[0])
+
+nova_lista = [1, 2, 3, 'eu']
+nova_lista.remove(3)
+print(nova_lista)
+nova_lista.reverse()
+print(nova_lista)
+print(len(nova_lista))
